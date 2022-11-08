@@ -1,0 +1,103 @@
+p{
+    text-align: center;
+    font-size: 100px;
+    margin: auto;
+}
+
+#motherbox1  {
+    
+    border: 1px solid;
+    position: absolute;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+#motherbox2  {
+    position: absolute;
+    display: inline-block;
+    left: 300px;
+    border-radius: 10px;
+    
+}
+
+
+.capa1{
+    background-color: yellow;
+    height:200px;
+    width: 200px;
+    top: 100px;
+    left: 90px;
+    position: absolute;
+    z-index: 3;
+    border-radius: inherit;
+    box-shadow: 5px 5px 20px 0.1px 
+            
+}
+
+.capa2{
+    background-color: blue ;
+    height:200px;
+    width: 200px;
+    position: absolute;  
+    top: 150px;
+    left: 150px;
+    z-index: 2;
+    border-radius: inherit;
+    box-shadow: 5px 5px 20px 0.1px 
+    
+}
+
+.capa3{
+    background-color: red;
+    height:200px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 210px;
+    z-index: 1;
+    border-radius: inherit;
+    box-shadow: 5px 5px 20px 0.1px 
+}
+
+.capa4{
+    background-color: yellow;
+    height:200px;
+    width: 200px;
+    top: 100px;
+    left: 90px;
+    position: absolute;
+    z-index: 1;
+    border-radius: inherit;
+    box-shadow: 5px 5px 20px 0.1px 
+            
+}
+
+.capa5{
+    background-color: blue ;
+    height:200px;
+    width: 200px;
+    position: absolute;  
+    top: 150px;
+    left: 150px;
+    z-index: 2;
+    border-radius: inherit;
+    box-shadow: 5px 5px 20px 0.1px;
+    filter: brightness(1.75);
+    
+}
+
+.capa6{
+    background-color: red;
+    height:200px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 210px;
+    z-index: 3;
+    border-radius: inherit;
+    box-shadow: 5px 5px 20px 0.1px ;
+   
+    
+    
+}
